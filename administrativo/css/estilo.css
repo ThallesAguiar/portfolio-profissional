@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+  padding-top: 54px;
+  background-color: #f5f6f7;
+}
+
+
+/*SOMBRAS*/
+.sombra-col-esquerda{
+    box-shadow:0px 7px 15px 2px #dcdcdc;
+}
+.sombra-col-direita{
+    box-shadow: -2px 7px 15px 2px #dcdcdc;
+}/*/ SOMBRAS*/
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
